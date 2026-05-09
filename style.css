@@ -1,6 +1,50 @@
-h1 { color: #008080;}
-p { color:#800080;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;}
+
+  li {
+  list-style-type: none;
+}
+
+
+
+
+
+
+/* NAVIGATION*/
+nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100px;
+}
 #personal-logo {
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;}
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nav__link--list {
+display: flex;
+}
+.nav__link { 
+    margin: 0 12px;
+}
+.nav__link--anchor {
+    text-decoration: none;
+    color: #35033a;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fa-adjust {
+    font-size: 18px;
+    color: #35033a;
+}
+/*
