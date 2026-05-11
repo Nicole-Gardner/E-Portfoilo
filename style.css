@@ -9,6 +9,53 @@
   li {
   list-style-type: none;
 }
+section {
+  background-color: rgb(245, 245, 245);
+}
+
+
+
+/* 
+
+  LANDING PAGE 
+  
+*/
+#landing-page {
+  min-height: 100vh;
+}
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 30px;
+}
+
+.title {
+  font-size: 120px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1;
+color: purple;}
+
+.title title--secondary{
+  color: #ad15bb !important;
+}
+.secondary{
+  color: #cfb53b !important;
+}
+.header__para{
+  font-size: 24px;
+  line-height: 2;
+  max-width: 450px;
+}
+p{
+  line-height: 1.5;
+  font-size: 16px;
+}
+
 
 
 
@@ -43,8 +90,7 @@ display: flex;
     font-size: 18px;
     font-weight: 700;
 }
-.fa-adjust {
-    font-size: 18px;
-    color: #35033a;
+.fa-solid fa-circle-half-stroke {
+    font-size: 20px;
 }
-/*
+
