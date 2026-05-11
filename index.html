@@ -10,34 +10,38 @@
 <body>
     <section id="landing-page">
         <nav>
-            <figure>
-                <img id="personal-logo" src="./assets/nglogo.jpg" alt="">
-            </figure>
-
-        <ul class="nav__link--list">
-            <li class="nav__link">
-                <a href="#" class="nav__link--anchor  
-                link__hover-effect 
-                link__hover-effect--black"> About</a>
-             </li>
-              <li class="nav__link">
-                <a href="#" class="nav__link--anchor  
-                link__hover-effect 
-                link__hover-effect--black"> Projects</a>
-             </li>
-            <li class="nav__link">
-                <a href="#" class="nav__link--anchor  
-                link__hover-effect 
-                link__hover-effect--black"> Contact</a>
-            </li>
-            <li>
-         <a href="#" class=" nav__link--anchor link__hover-effect link__hover-effect--black">
-            <i class="fa-solid fa-circle-half-stroke"></i>
-         </a>
+      <figure>
+        <img id="personal-logo" src="./assets/logo.svg" alt="">
+      </figure>
+      <ul class="nav__link--list">
+        <li class="nav__link" onclick="toggleModal()">
+          <a href="#" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">About</a>
         </li>
-           
-           
-        </ul>
+        <li class="nav__link">
+          <a href="#projects" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Projects</a>
+        </li>
+        <li class="nav__link" onclick="toggleModal()">
+          <a href="#" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Contact</a>
+        </li>
+     </nav>
+     <li class="nav__link click" onclick="toggleContrast()">
+  <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">
+    <i class="fa-solid fa-circle-half-stroke"></i>
+  </a>
+</li>
+ </ul>
     </nav>
     <header class="header">
         <div class="header__content">
@@ -63,7 +67,14 @@
             </div>
         </div>
     </header>
-    </section>
+    <a href="#">
+      <button class="mail__btn click" 
+        <i class="fas fa-envelope"></i>
+      </button>
+    </a>
+    <a href="#" class="scroll">
+      <div class="scroll__icon click"></div>
+    </a>
    
 </body>
 </html>
